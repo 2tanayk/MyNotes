@@ -57,7 +57,7 @@ public class AddEditNoteActivity extends AppCompatActivity {
 
     private void saveNote() {
         String title = editTextTitle.getText().toString();
-        String description = editTextTitle.getText().toString();
+        String description = editTextDescription.getText().toString();
         int priority = numberPickerPriority.getValue();
 
         if (title.trim().isEmpty() || description.trim().isEmpty()) {
